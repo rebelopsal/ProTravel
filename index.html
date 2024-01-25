@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet"href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <title>ProTravel</title>
+</head>
+<body>
+    <nav class="navbar z-depth">
+        <h2>ProTravel</h2>
+    </nav>
+    <div>
+        <form id="vacationCalc">
+            <input type="text" placeholder="Detino" id="destiny" required>
+            <input type="number" placeholder="Presupuesto" id="budget" required>
+            <input type="number" placeholder="Alojamiento" id="acomodation" required>
+            <input type="number" placeholder="Transporte" id="transport" required>
+            <input type="number" placeholder="Comida" id="food" required>
+            <input type="submit" value="Calcular" class="btn z-depth">
+        </form>
+    </div>
+
+    <div class="container">
+        <div class="icono">
+            <h5><img src="./img/avion.png" alt=""></h5>
+            <h5><img src="./img/billetera.png" alt=""></h5>
+            <h5><img src="./img/retorno-de-la-inversion.png" alt=""></hh5>
+        </div>
+    </div>
+
+    <div class="data">
+        <div class="result" id="result"></div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
